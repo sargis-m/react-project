@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {Instructions} from './Instructions';
+import {Instructions} from '../Instructions/Instructions.js';
 
 import './App.css';
 
