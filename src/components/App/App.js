@@ -1,6 +1,7 @@
 import React from 'react';
 
 import {Instructions} from '../Instructions/Instructions.js';
+import Profile from '../Profile/Profile.js';
 
 import './App.css';
 
@@ -27,7 +28,7 @@ function App() {
         <div className="container">
             <h1 id={greeting}>Hello, World</h1>
             {displayAction && <p>I am writing JSX</p>}
-            <Instructions />
+            <Instructions/>
             <ul>
                 {
                     emojis.map(emoji => (
@@ -39,6 +40,10 @@ function App() {
                     ))
                 }
             </ul>
+
+            <div>
+                <Profile/>
+            </div>
         </div>
     )
 }

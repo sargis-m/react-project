@@ -1,0 +1,8 @@
+.profile img {
+    height: 100px;
+    margin-right: 10px;
+}
+
+.gallery {
+    display: flex;
+}
