@@ -2,6 +2,7 @@ import React from 'react';
 
 import {Instructions} from '../Instructions/Instructions.js';
 import Profile from '../Profile/Profile.js';
+import StateDemo from '../StateDemo/StateDemo';
 
 import './App.css';
 
@@ -43,6 +44,10 @@ function App() {
 
             <div>
                 <Profile/>
+            </div>
+
+            <div>
+                <StateDemo/>
             </div>
         </div>
     )
