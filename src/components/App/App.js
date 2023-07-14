@@ -3,6 +3,7 @@ import React from 'react';
 import {Instructions} from '../Instructions/Instructions.js';
 import Profile from '../Profile/Profile.js';
 import StateDemo from '../StateDemo/StateDemo';
+import UseEffectDemo from '../UseEffectDemo/UseEffectDemo';
 
 import './App.css';
 
@@ -48,6 +49,10 @@ function App() {
 
             <div>
                 <StateDemo/>
+            </div>
+
+            <div>
+                <UseEffectDemo/>
             </div>
         </div>
     )
