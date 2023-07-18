@@ -4,6 +4,7 @@ import {Instructions} from '../Instructions/Instructions.js';
 import Profile from '../Profile/Profile.js';
 import StateDemo from '../StateDemo/StateDemo';
 import UseEffectDemo from '../UseEffectDemo/UseEffectDemo';
+import Users from '../Users/Users';
 
 import './App.css';
 
@@ -53,6 +54,10 @@ function App() {
 
             <div>
                 <UseEffectDemo/>
+            </div>
+
+            <div>
+                <Users/>
             </div>
         </div>
     )
